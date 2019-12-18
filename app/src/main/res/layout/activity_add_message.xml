@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="#DF0C0C"
+    android:padding="25dp"
     tools:context=".AddMessageActivity">
 
     <EditText
@@ -14,7 +16,8 @@
         android:layout_height="wrap_content"
         android:hint="Enter word.."
         android:textSize="20sp"
-        android:layout_margin="20dp"
+        android:background="#DBD0D0"
+        android:padding="10dp"
         />
     <EditText
         android:id="@+id/etMeaning"
@@ -23,14 +26,18 @@
         android:hint="Enter meaning.."
         android:textSize="20sp"
         android:gravity="start"
+        android:background="#DBD0D0"
         android:layout_weight="1"
-        android:layout_margin="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+
         />
+
     <Button
         android:id="@+id/btnAddNow"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
         android:text="Add Word"
         android:textSize="20sp"
         />
